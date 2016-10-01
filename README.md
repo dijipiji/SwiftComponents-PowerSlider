@@ -15,7 +15,7 @@ A range slider which has the following features:
 
 ![image](screen.png)
 
-To create a PowerSlider import the PowerSlider folder into your project and use the constructor:
+To create a PowerSlider import the PowerSlider folder into your project, construct a PowerSider and use the method:
 
 
 
