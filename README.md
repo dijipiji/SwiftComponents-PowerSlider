@@ -39,7 +39,7 @@ To create a PowerSlider import the PowerSlider folder into your project, constru
 		
 Note the optionals which you can use to define a dual slider (which uses paddle concepts A&B as opposed to a singular "A"), min & max values, the start values for any added paddles, the slider track paint color and all the various slider assets (i.e. slider paddles and track).
 
-Please see the sample code in ViewController.swift for more, the most simple usage would be with no optionals as follows e.g.:
+Please see the sample code in ViewController.swift for more, the most simple usage would be with no optionals as follows:
 
 
 
