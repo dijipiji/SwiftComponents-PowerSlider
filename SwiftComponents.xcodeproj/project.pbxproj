@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A57CA5771C5F61AD000ACE21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CA5761C5F61AD000ACE21 /* AppDelegate.swift */; };
+		A57CA5791C5F61AD000ACE21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CA5781C5F61AD000ACE21 /* ViewController.swift */; };
+		A57CA57C1C5F61AD000ACE21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57CA57A1C5F61AD000ACE21 /* Main.storyboard */; };
+		A57CA57E1C5F61AD000ACE21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57CA57D1C5F61AD000ACE21 /* Assets.xcassets */; };
+		A57CA5861C60C16B000ACE21 /* PowerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CA5851C60C16B000ACE21 /* PowerSlider.swift */; };
+		A57CA5881C60CA05000ACE21 /* PowerSliderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57CA5871C60CA05000ACE21 /* PowerSliderDelegate.swift */; };
+		A57CA58A1C61101C000ACE21 /* PowerSlider.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57CA5891C61101C000ACE21 /* PowerSlider.xcassets */; };
 		A5977DB61C58D7630036D9E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5977DB51C58D7630036D9E9 /* AppDelegate.swift */; };
 		A5977DB81C58D7630036D9E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5977DB71C58D7630036D9E9 /* ViewController.swift */; };
 		A5977DBB1C58D7630036D9E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5977DB91C58D7630036D9E9 /* Main.storyboard */; };
@@ -15,6 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A57CA5741C5F61AD000ACE21 /* SwiftComponentsTVOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftComponentsTVOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57CA5761C5F61AD000ACE21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A57CA5781C5F61AD000ACE21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A57CA57B1C5F61AD000ACE21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A57CA57D1C5F61AD000ACE21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A57CA57F1C5F61AD000ACE21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A57CA5851C60C16B000ACE21 /* PowerSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerSlider.swift; sourceTree = "<group>"; };
+		A57CA5871C60CA05000ACE21 /* PowerSliderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerSliderDelegate.swift; sourceTree = "<group>"; };
+		A57CA5891C61101C000ACE21 /* PowerSlider.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PowerSlider.xcassets; sourceTree = "<group>"; };
 		A5977DB21C58D7630036D9E9 /* SwiftComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5977DB51C58D7630036D9E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5977DB71C58D7630036D9E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,6 +41,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A57CA5711C5F61AD000ACE21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5977DAF1C58D7630036D9E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,10 +58,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A57CA5751C5F61AD000ACE21 /* SwiftComponentsTVOS */ = {
+			isa = PBXGroup;
+			children = (
+				A57CA5761C5F61AD000ACE21 /* AppDelegate.swift */,
+				A57CA5781C5F61AD000ACE21 /* ViewController.swift */,
+				A57CA57A1C5F61AD000ACE21 /* Main.storyboard */,
+				A57CA57D1C5F61AD000ACE21 /* Assets.xcassets */,
+				A57CA57F1C5F61AD000ACE21 /* Info.plist */,
+			);
+			path = SwiftComponentsTVOS;
+			sourceTree = "<group>";
+		};
 		A5977DA91C58D7630036D9E9 = {
 			isa = PBXGroup;
 			children = (
 				A5977DB41C58D7630036D9E9 /* SwiftComponents */,
+				A57CA5751C5F61AD000ACE21 /* SwiftComponentsTVOS */,
 				A5977DB31C58D7630036D9E9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				A5977DB21C58D7630036D9E9 /* SwiftComponents.app */,
+				A57CA5741C5F61AD000ACE21 /* SwiftComponentsTVOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +93,9 @@
 			children = (
 				A5977DB51C58D7630036D9E9 /* AppDelegate.swift */,
 				A5977DB71C58D7630036D9E9 /* ViewController.swift */,
+				A57CA5851C60C16B000ACE21 /* PowerSlider.swift */,
+				A57CA5891C61101C000ACE21 /* PowerSlider.xcassets */,
+				A57CA5871C60CA05000ACE21 /* PowerSliderDelegate.swift */,
 				A5977DB91C58D7630036D9E9 /* Main.storyboard */,
 				A5977DBC1C58D7630036D9E9 /* Assets.xcassets */,
 				A5977DBE1C58D7630036D9E9 /* LaunchScreen.storyboard */,
@@ -67,6 +107,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A57CA5731C5F61AD000ACE21 /* SwiftComponentsTVOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57CA5821C5F61AD000ACE21 /* Build configuration list for PBXNativeTarget "SwiftComponentsTVOS" */;
+			buildPhases = (
+				A57CA5701C5F61AD000ACE21 /* Sources */,
+				A57CA5711C5F61AD000ACE21 /* Frameworks */,
+				A57CA5721C5F61AD000ACE21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftComponentsTVOS;
+			productName = SwiftComponentsTVOS;
+			productReference = A57CA5741C5F61AD000ACE21 /* SwiftComponentsTVOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		A5977DB11C58D7630036D9E9 /* SwiftComponents */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5977DC41C58D7630036D9E9 /* Build configuration list for PBXNativeTarget "SwiftComponents" */;
@@ -94,6 +151,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = contagious;
 				TargetAttributes = {
+					A57CA5731C5F61AD000ACE21 = {
+						CreatedOnToolsVersion = 7.2;
+					};
 					A5977DB11C58D7630036D9E9 = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -113,15 +173,26 @@
 			projectRoot = "";
 			targets = (
 				A5977DB11C58D7630036D9E9 /* SwiftComponents */,
+				A57CA5731C5F61AD000ACE21 /* SwiftComponentsTVOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A57CA5721C5F61AD000ACE21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57CA57E1C5F61AD000ACE21 /* Assets.xcassets in Resources */,
+				A57CA57C1C5F61AD000ACE21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5977DB01C58D7630036D9E9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57CA58A1C61101C000ACE21 /* PowerSlider.xcassets in Resources */,
 				A5977DC01C58D7630036D9E9 /* LaunchScreen.storyboard in Resources */,
 				A5977DBD1C58D7630036D9E9 /* Assets.xcassets in Resources */,
 				A5977DBB1C58D7630036D9E9 /* Main.storyboard in Resources */,
@@ -131,18 +202,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A57CA5701C5F61AD000ACE21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57CA5791C5F61AD000ACE21 /* ViewController.swift in Sources */,
+				A57CA5771C5F61AD000ACE21 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5977DAE1C58D7630036D9E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A5977DB81C58D7630036D9E9 /* ViewController.swift in Sources */,
+				A57CA5881C60CA05000ACE21 /* PowerSliderDelegate.swift in Sources */,
 				A5977DB61C58D7630036D9E9 /* AppDelegate.swift in Sources */,
+				A57CA5861C60C16B000ACE21 /* PowerSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		A57CA57A1C5F61AD000ACE21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A57CA57B1C5F61AD000ACE21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		A5977DB91C58D7630036D9E9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -162,6 +252,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A57CA5801C5F61AD000ACE21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SwiftComponentsTVOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.contagiousenterprise.SwiftComponents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		A57CA5811C5F61AD000ACE21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SwiftComponentsTVOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.contagiousenterprise.SwiftComponents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
 		A5977DC21C58D7630036D9E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -251,8 +371,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftComponents/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.contagious.SwiftComponents;
+				PRODUCT_BUNDLE_IDENTIFIER = com.contagiousenterprise.SwiftComponents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -262,14 +383,23 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftComponents/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.contagious.SwiftComponents;
+				PRODUCT_BUNDLE_IDENTIFIER = com.contagiousenterprise.SwiftComponents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A57CA5821C5F61AD000ACE21 /* Build configuration list for PBXNativeTarget "SwiftComponentsTVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57CA5801C5F61AD000ACE21 /* Debug */,
+				A57CA5811C5F61AD000ACE21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		A5977DAD1C58D7630036D9E9 /* Build configuration list for PBXProject "SwiftComponents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -286,6 +416,7 @@
 				A5977DC61C58D7630036D9E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

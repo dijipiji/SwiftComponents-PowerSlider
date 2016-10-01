@@ -3,7 +3,7 @@
 //  SwiftComponents
 //
 //  Created by Jamie Lemon on 27/01/2016.
-//  Copyright © 2016 contagious. All rights reserved.
+//  Copyright © 2016 dijipiji. All rights reserved.
 //
 
 import UIKit
@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        print("start app")
         return true
     }
 

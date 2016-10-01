@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>SwiftComponentsTVOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>A57CA5731C5F61AD000ACE21</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A5977DB11C58D7630036D9E9</key>
 		<dict>
 			<key>primary</key>
